@@ -1090,6 +1090,24 @@ video {
     margin: auto;
   }
 
+  .lg\:m-0 {
+    margin: 0px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:my-14 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1114,6 +1132,14 @@ video {
     width: auto;
   }
 
+  .lg\:w-2 {
+    width: 0.5rem;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
   .lg\:flex-none {
     flex: none;
   }
@@ -1130,8 +1156,20 @@ video {
     align-items: flex-start;
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-right {
+    text-align: right;
+  }
+
+  .lg\:text-justify {
+    text-align: justify;
   }
 
   .lg\:text-start {
