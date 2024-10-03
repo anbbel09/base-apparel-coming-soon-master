@@ -844,6 +844,11 @@ video {
     margin-bottom: 0.5rem;
   }
 
+  .lg\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
   .lg\:block {
     display: block;
   }
