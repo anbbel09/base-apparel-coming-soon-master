@@ -819,6 +819,16 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .sm\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -847,6 +857,21 @@ video {
   .lg\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .lg\:my-11 {
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .lg\:my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .lg\:block {
@@ -887,6 +912,18 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:justify-around {
+    justify-content: space-around;
+  }
+
+  .lg\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .lg\:px-0 {
